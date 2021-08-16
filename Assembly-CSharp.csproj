@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5E3372C2-D084-CC29-ED23-9F5EA13F4DC9}</ProjectGuid>
+    <ProjectGuid>{865D557C-675A-2269-5AE8-6DA0FE8D22CC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\TeleportPlayerOnContact.cs" />
     <Compile Include="Assets\Scripts\RotateOverTime.cs" />
+    <Compile Include="Assets\Scripts\FloatGameobject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
