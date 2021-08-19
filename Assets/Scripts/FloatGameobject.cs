@@ -22,12 +22,9 @@ public class FloatGameobject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         // Float up/down with a Sin()
         tempPos = posOffset;
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
-        //Vector2 tempVector = new Vector2(transform.position.x, Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude);
-        //tempPos.y = Vector2.SmoothDamp((Vector2)transform.position, tempVector, ref m_velocity, 1f).y;
 
         transform.position = tempPos;
     }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6886675051232341025}
   - component: {fileID: 6886675051232341024}
   - component: {fileID: 6886675051232341030}
+  - component: {fileID: 5233071874001030310}
   m_Layer: 0
   m_Name: DarkLaser
   m_TagString: Deadly
@@ -109,3 +110,49 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.18997431, y: 1.4835812}
   m_EdgeRadius: 0
+--- !u!114 &5233071874001030310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886675051232341026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.903
+  m_Color: {r: 0.96470594, g: 0.2901961, b: 0.27450982, a: 1}
+  m_Intensity: 0.7
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 0
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 1
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.06332689, y: -0.20459494, z: 0}
+  - {x: -0.07600888, y: -0.5558403, z: 0}
+  - {x: 0.086149536, y: -0.56122196, z: 0}
+  - {x: 0.09810332, y: 0.21768217, z: 0}
+  - {x: 0.11093375, y: 0.36786196, z: 0}
+  - {x: 0.07168251, y: 0.55103433, z: 0}
+  - {x: 0.009035787, y: 0.5460759, z: 0}
+  - {x: -0.09186416, y: 0.54667306, z: 0}
+  - {x: -0.08737216, y: 0.2329116, z: 0}
