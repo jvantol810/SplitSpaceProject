@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Portal.cs" />
     <Compile Include="Assets\Scripts\TeleportGameobjectsOnContact.cs" />
     <Compile Include="Assets\Scripts\TeleportPlayerOnContact.cs" />
+    <Compile Include="Assets\Scripts\ExampleScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
